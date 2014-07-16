@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+	"detect_slow_plugins": false,
+	"folder_exclude_patterns":
+	[
+		".git",
+		".distelli",
+		".cap_local_cache",
+		"node_modules",
+		"assets",
+		"www/js",
+		"www/protected/vendor"
+	],
+	"font_size": 12.0,
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}
