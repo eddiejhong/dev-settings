@@ -49,6 +49,7 @@
 	"draw_white_space": "selected",
 	"enable_hexadecimal_encoding": true,
 	"ensure_newline_at_eof_on_save": true,
+	"expand_tabs_on_save": true,
 	"fade_fold_buttons": true,
 	"fallback_encoding": "Western (Windows 1252)",
 	"file_exclude_patterns":
@@ -99,11 +100,11 @@
 	"font_options":
 	[
 	],
-	"font_size": 12.0,
+	"font_size": 15.0,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
-	"highlight_line": false,
-	"highlight_modified_tabs": false,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"hot_exit": true,
 	"ignored_packages":
 	[
