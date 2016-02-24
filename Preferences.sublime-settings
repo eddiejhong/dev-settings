@@ -88,13 +88,6 @@
 		".git",
 		".distelli",
 		".cap_local_cache",
-		"node_modules",
-		"assets",
-		"www/build",
-		"build",
-		"www/protected/vendor",
-		"www/build/bower_components/",
-		"www/js-public/bower_components/rs-styleguide"
 	],
 	"font_face": "monaco",
 	"font_options":
