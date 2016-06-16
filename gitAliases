@@ -7,7 +7,7 @@ alias gd='git diff | mate'
 alias gfa='git fetch --all'
 alias gl='git pull'
 alias glog='git log --graph --oneline --decorate --date=relative --all'
-alias gp='git push'
-alias gpom="git pull origin master"
+alias glom="git pull origin master"
+alias gp='git push origin HEAD'
 alias gpu='branch=$(git branch | grep "\*" | awk "{ print \$2 }"); git push --set-upstream origin $branch'
 alias gst='git status'
