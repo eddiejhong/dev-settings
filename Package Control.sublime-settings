@@ -1,0 +1,45 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"AngularJS",
+		"AngularJS Snippets",
+		"Bubububububad and Boneyfied Color Schemes",
+		"Color Highlighter",
+		"ColorPicker",
+		"Comment-Snippets",
+		"CSS3",
+		"Diffy",
+		"Emmet",
+		"Emmet Css Snippets",
+		"FindKeyConflicts",
+		"GitGutter",
+		"GotoWindow",
+		"HTML5",
+		"Insert Callback",
+		"Jekyll",
+		"jQuery",
+		"jQuery Snippets pack",
+		"LESS",
+		"Markdown Preview",
+		"Material Color Scheme",
+		"Material Theme",
+		"Oceanic Color Scheme",
+		"Package Control",
+		"PackageResourceViewer",
+		"Phpcs",
+		"Pretty JSON",
+		"Ruby Completions",
+		"SublimeLinter-jshint",
+		"SublimeLinter-phpcs",
+		"Theme - Cobalt2",
+		"Theme - SoDaReloaded",
+		"Theme - Spacegray",
+		"Twig",
+		"TypeScript"
+	]
+}
