@@ -1,3 +1,6 @@
+export EDITOR=vim
+alias notifyDone='terminal-notifier -title "Terminal" -message "Task complete!"'
+
 alias del='git branch -d'
 alias gb='git branch'
 alias gba='git branch -a'
@@ -9,5 +12,6 @@ alias gl='git pull'
 alias glog='git log --graph --oneline --decorate --date=relative --all'
 alias glom="git pull origin master"
 alias gp='git push origin HEAD'
+alias gpo='git push origin'
 alias gpu='branch=$(git branch | grep "\*" | awk "{ print \$2 }"); git push --set-upstream origin $branch'
 alias gst='git status'
