@@ -1,7 +1,8 @@
 {
+	"always_show_minimap_viewport": true,
 	"atomic_save": false,
 	"auto_complete": true,
-	"auto_complete_commit_on_tab": false,
+	"auto_complete_commit_on_tab": true,
 	"auto_complete_delay": 50,
 	"auto_complete_selector": "source - comment",
 	"auto_complete_size_limit": 4194304,
@@ -12,7 +13,7 @@
 			"selector": "text.html"
 		}
 	],
-	"auto_complete_with_fields": false,
+	"auto_complete_with_fields": true,
 	"auto_indent": true,
 	"auto_match_enabled": true,
 	"binary_file_patterns":
@@ -34,7 +35,7 @@
 	"bold_folder_labels": false,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Color Scheme - Default/Blackboard.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
 	"copy_with_empty_selection": true,
 	"create_window_at_startup": true,
 	"default_encoding": "UTF-8",
@@ -42,6 +43,7 @@
 	"detect_indentation": true,
 	"detect_slow_plugins": false,
 	"dictionary": "Packages/Language - English/en_US.dic",
+	"disable_tab_abbreviations_for_scopes": "source.css",
 	"drag_text": true,
 	"draw_centered": false,
 	"draw_indent_guides": true,
@@ -73,27 +75,38 @@
 		"*.class",
 		"*.psd",
 		"*.db",
-		"*.css*",
 		"*.min*",
-		"*jquery*"
+		"*jquery*",
+		"rs-head.js",
+		"*.css",
+		"*.map"
 	],
 	"find_selected_text": true,
 	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
-		".svn",
 		".git",
 		".hg",
+		".idea",
+		".svn",
 		"CVS",
-		".git",
 		".distelli",
 		".cap_local_cache",
+		"node_modules",
+		"bower_dev/StyleGuide/bower_components",
+		"www/js-public/bower_components",
+		"www/protected/vendor",
+		"build",
+		"www/assets",
+		"bower_components",
+		"composer_vendor",
+		"dist"
 	],
 	"font_face": "monaco",
 	"font_options":
 	[
 	],
-	"font_size": 15.0,
+	"font_size": 18.0,
 	"gpu_window_buffer": "auto",
 	"gutter": true,
 	"highlight_line": true,
@@ -101,11 +114,13 @@
 	"hot_exit": true,
 	"ignored_packages":
 	[
+		"CSS",
 		"Vintage"
 	],
 	"indent_guide_options":
 	[
-		"draw_normal"
+		"draw_normal",
+		"draw_active"
 	],
 	"indent_subsequent_lines": true,
 	"indent_to_bracket": false,
@@ -120,9 +135,23 @@
 	"match_brackets_square": true,
 	"match_selection": true,
 	"match_tags": true,
+	"material_theme_accent_indigo": true,
+	"material_theme_accent_lime": true,
+	"material_theme_accent_orange": true,
+	"material_theme_accent_purple": true,
+	"material_theme_accent_red": true,
+	"material_theme_accent_yellow": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_disable_tree_indicator": true,
+	"material_theme_panel_separator": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tabs_separator": true,
 	"move_to_limit_on_up_down": false,
 	"open_files_in_new_window": true,
-	"overlay_scroll_bars": "system",
+	"overlay_scroll_bars": "enabled",
 	"preview_on_click": true,
 	"remember_open_files": true,
 	"rulers":
@@ -132,6 +161,8 @@
 	"scroll_past_end": true,
 	"scroll_speed": 1.0,
 	"shift_tab_unindent": false,
+	"show_css_completions": false,
+	"show_definitions": true,
 	"show_full_path": true,
 	"show_panel_on_build": true,
 	"show_tab_close_buttons": true,
