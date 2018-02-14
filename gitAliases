@@ -9,7 +9,7 @@ alias gco='git checkout'
 alias gd='git diff | mate'
 alias gfa='git fetch --all'
 alias gl='git pull'
-alias glog='git log --graph --oneline --decorate --date=relative --all --format="%h %<(100,trunc)%s"'
+alias glog='git log --graph --oneline --decorate --date=relative --all --format="%h %<(200,trunc)%s"'
 alias glom="git pull origin master"
 alias gp='git push origin HEAD'
 alias gpo='git push origin'
